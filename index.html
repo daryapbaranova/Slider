@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Slider</title>
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="background"></div>
+    <h1>топ - партнеров</h1>
+    <div class="container">
+        <div class="owl-carousel slides" id="carousel">
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/Dunder1.png" alt="">
+            </div>
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/Karamba1.png" alt="">
+            </div>
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/playamo1.png" alt="">
+            </div>
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/Buffalo1.png" alt="">
+            </div>
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/Eshko1.png" alt="">
+            </div>
+            <div class="slide">
+                <a href="" target="_blank"></a><img src="img/vulkan1.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script>
+        $('#carousel').owlCarousel({
+        autoplay:false,
+        dots:false,
+        nav:true,
+        navText: ["<img src='img/pointer_left.png'>","<img src='img/pointer_right.png'>"],
+        loop:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+    </script>
+</body>
+</html>
